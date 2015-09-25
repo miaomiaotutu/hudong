@@ -12,12 +12,12 @@
 - (void)setDatamodel:(NSDictionary *)datamodel
 {
     self.headerNameT = datamodel[@"headerNameT"];
-    self.headerDateT = datamodel[@"headerDateT"];
     self.headerTimeT = datamodel[@"headerTimeT"];
     self.addressT = datamodel[@"addressT"];
     self.contentT = datamodel[@"contentT"];
     self.hotTlagT = datamodel[@"hotTlagT"];
     self.picT = datamodel[@"picT"];
-
+    self.commentT = datamodel[@"commentT"];
+    self.praiseT = datamodel[@"praiseT"];
 }
 @end

@@ -15,7 +15,6 @@
 @property (nonatomic,copy) NSString *headerNameT;
 @property (nonatomic,copy) NSString *addressT;
 @property (nonatomic,copy) NSString *headerTimeT;
-@property (nonatomic,copy) NSString *headerDateT;
 @property (nonatomic,copy) NSString *hotTlagT;
 @property (nonatomic,copy) NSString *commentT;
 @property (nonatomic,copy) NSString *praiseT;

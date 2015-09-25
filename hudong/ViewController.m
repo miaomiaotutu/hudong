@@ -96,7 +96,7 @@
 //    swipe1.direction = UISwipeGestureRecognizerDirectionLeft ;
 //    [self.table1 addGestureRecognizer:swipe1];
     
-    self.slideSwitchView = [[QCSlideSwitchView alloc]initWithFrame:CGRectMake(0, 64, 320, 400)];
+    self.slideSwitchView = [[QCSlideSwitchView alloc]initWithFrame:CGRectMake(0, 64, 320, 568)];
 //    self.slideSwitchView.slideSwitchViewDelegate=self;
     //self.slideSwitchView.frame = CGRectMake(0, 64, 320, 400);
     [self.view addSubview:self.slideSwitchView];
