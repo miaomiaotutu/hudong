@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MJPhotoBrowser.xcscheme</key>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -14,17 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
+		<key>TRCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SVProgressHUD.xcscheme</key>
+		<key>TRMJPhotoBrowser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>YLGIFImage.xcscheme</key>
+		<key>TRWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5352D432641F0656C90741034E32F31E</key>
+		<key>0B994E71901832B0931D075D3EA4BE31</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>547EA504C071A50E5CF78890947786F8</key>
+		<key>5D6A688BA832908C229FFB9BF1B7CC59</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B281DA29A9C3EDFB45BA53651F6BA611</key>
+		<key>61B92F0A4F78251479A773BF1D094A47</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B40E0F1D1C7FA85AF634B6F1E226BB8A</key>
+		<key>A2EAB3A4275AD2C2AF00EB3E9FBCE870</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CC8B6CF2EB3A14262B090D6D5378C594</key>
+		<key>DE23DC6683F85AD46BFCF95F0D2D7050</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBD363CA199E7B14D1C2062908BDCBA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

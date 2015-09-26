@@ -8,6 +8,8 @@
 
 #import "MJLPhotoView.h"
 #import <MJPhotoBrowser.h>
+#import <UIImageView+WebCache.h>
+#import <MJPhoto.h>
 #define picWidth ([UIScreen mainScreen].bounds.size.width-10*4)/3.0
 
 @implementation MJLPhotoView
@@ -40,8 +42,8 @@
 {
     for (int i = 0; i < 6; i++) {
         UIImageView *imageview = [[UIImageView alloc]init];
-        imageview.contentMode = UIViewContentModeCenter;
-        imageview.clipsToBounds = YES;
+//        imageview.contentMode = UIViewContentModeCenter;
+//        imageview.clipsToBounds = YES;
         imageview.tag = i;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
         [imageview addGestureRecognizer:tap];
