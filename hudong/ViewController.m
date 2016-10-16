@@ -10,10 +10,15 @@
 #import "QCSlideSwitchView.h"
 #import "myTableViewController.h"
 #define Duration .2f
+<<<<<<< HEAD
 #define DEVICE_WIDTH [UIScreen mainScreen].bounds.size.width
 #define DEVICE_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate,QCSlideSwitchViewDelegate>
+=======
+@interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate,QCSlideSwitchViewDelegate>
+//@property (strong, nonatomic) IBOutlet QCSlideSwitchView *slideSwitchView;
+>>>>>>> 8e2b53a0ff95135ec441fe7e0e49676efcdaa4b5
 @property (strong, nonatomic) QCSlideSwitchView *slideSwitchView;
 
 @property (nonatomic,weak) UIButton *topButton;
@@ -66,7 +71,10 @@
 
 - (void)setupUIButtons
 {
+<<<<<<< HEAD
     
+=======
+>>>>>>> 8e2b53a0ff95135ec441fe7e0e49676efcdaa4b5
     NSArray *arr = @[@"推荐",@"活动专区",@"趣味杂谈",@"情感",@"财经",@"体育"];
     for (int i = 0; i < arr.count; i++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -99,7 +107,13 @@
 //    swipe1.direction = UISwipeGestureRecognizerDirectionLeft ;
 //    [self.table1 addGestureRecognizer:swipe1];
     
+<<<<<<< HEAD
     self.slideSwitchView = [[QCSlideSwitchView alloc]initWithFrame:CGRectMake(0, 64, DEVICE_WIDTH, DEVICE_HEIGHT-64)];
+=======
+    self.slideSwitchView = [[QCSlideSwitchView alloc]initWithFrame:CGRectMake(0, 64, 320, 568)];
+//    self.slideSwitchView.slideSwitchViewDelegate=self;
+    //self.slideSwitchView.frame = CGRectMake(0, 64, 320, 400);
+>>>>>>> 8e2b53a0ff95135ec441fe7e0e49676efcdaa4b5
     [self.view addSubview:self.slideSwitchView];
     
     self.slideSwitchView.tabItemNormalColor = [QCSlideSwitchView colorFromHexRGB:@"868686"];
@@ -199,4 +213,14 @@
     myTableViewController *vc = nil;
     vc=self.controllers[number];
 }
+<<<<<<< HEAD
+=======
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+>>>>>>> 8e2b53a0ff95135ec441fe7e0e49676efcdaa4b5
 @end

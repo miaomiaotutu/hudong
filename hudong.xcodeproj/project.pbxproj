@@ -15,6 +15,7 @@
 		844F6EFC1BAAAC5C0045999C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F6EFA1BAAAC5C0045999C /* LaunchScreen.storyboard */; };
 		844F6F071BAAAC5C0045999C /* hudongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F6F061BAAAC5C0045999C /* hudongTests.m */; };
 		844F6F121BAAAC5C0045999C /* hudongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F6F111BAAAC5C0045999C /* hudongUITests.m */; };
+<<<<<<< HEAD
 		8488E5CE1BAE3E670054B026 /* 互动_发帖头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488E5CD1BAE3E670054B026 /* 互动_发帖头像.png */; };
 		8488E5CF1BAE3E670054B026 /* 互动_发帖头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488E5CD1BAE3E670054B026 /* 互动_发帖头像.png */; };
 		8488E5D01BAE3E670054B026 /* 互动_发帖头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488E5CD1BAE3E670054B026 /* 互动_发帖头像.png */; };
@@ -49,6 +50,42 @@
 		84DB73371BABB845002AAE93 /* QCSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB73361BABB845002AAE93 /* QCSlideSwitchView.m */; };
 		84DB73381BABB845002AAE93 /* QCSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB73361BABB845002AAE93 /* QCSlideSwitchView.m */; };
 		84DB73391BABB845002AAE93 /* QCSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB73361BABB845002AAE93 /* QCSlideSwitchView.m */; };
+=======
+		8488E5CE1BAE3E670054B026 /* 互动_发帖头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488E5CD1BAE3E670054B026 /* 互动_发帖头像.png */; settings = {ASSET_TAGS = (); }; };
+		8488E5CF1BAE3E670054B026 /* 互动_发帖头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488E5CD1BAE3E670054B026 /* 互动_发帖头像.png */; settings = {ASSET_TAGS = (); }; };
+		8488E5D01BAE3E670054B026 /* 互动_发帖头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488E5CD1BAE3E670054B026 /* 互动_发帖头像.png */; settings = {ASSET_TAGS = (); }; };
+		849836931BB56E2200385AE8 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498368A1BB56E2200385AE8 /* DataModel.m */; settings = {ASSET_TAGS = (); }; };
+		849836941BB56E2200385AE8 /* FrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498368C1BB56E2200385AE8 /* FrameModel.m */; settings = {ASSET_TAGS = (); }; };
+		849836951BB56E2200385AE8 /* InteractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498368E1BB56E2200385AE8 /* InteractCell.m */; settings = {ASSET_TAGS = (); }; };
+		849836961BB56E2200385AE8 /* MJLPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849836901BB56E2200385AE8 /* MJLPhotoView.m */; settings = {ASSET_TAGS = (); }; };
+		849836971BB56E2200385AE8 /* myTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849836921BB56E2200385AE8 /* myTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		849836B01BB56FA400385AE8 /* 互动_互动  点开.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836991BB56FA400385AE8 /* 互动_互动  点开.png */; settings = {ASSET_TAGS = (); }; };
+		849836B11BB56FA400385AE8 /* 互动_互动 .png in Resources */ = {isa = PBXBuildFile; fileRef = 8498369A1BB56FA400385AE8 /* 互动_互动 .png */; settings = {ASSET_TAGS = (); }; };
+		849836B21BB56FA400385AE8 /* 互动_删除按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 8498369B1BB56FA400385AE8 /* 互动_删除按钮.png */; settings = {ASSET_TAGS = (); }; };
+		849836B31BB56FA400385AE8 /* 互动_发布 照片按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 8498369C1BB56FA400385AE8 /* 互动_发布 照片按钮.png */; settings = {ASSET_TAGS = (); }; };
+		849836B41BB56FA400385AE8 /* 互动_发布.png in Resources */ = {isa = PBXBuildFile; fileRef = 8498369D1BB56FA400385AE8 /* 互动_发布.png */; settings = {ASSET_TAGS = (); }; };
+		849836B51BB56FA400385AE8 /* 互动_发帖.png in Resources */ = {isa = PBXBuildFile; fileRef = 8498369E1BB56FA400385AE8 /* 互动_发帖.png */; settings = {ASSET_TAGS = (); }; };
+		849836B61BB56FA400385AE8 /* 互动_发帖头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 8498369F1BB56FA400385AE8 /* 互动_发帖头像.png */; settings = {ASSET_TAGS = (); }; };
+		849836B71BB56FA400385AE8 /* 互动_回复  副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A01BB56FA400385AE8 /* 互动_回复  副本.png */; settings = {ASSET_TAGS = (); }; };
+		849836B81BB56FA400385AE8 /* 互动_回复 .png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A11BB56FA400385AE8 /* 互动_回复 .png */; settings = {ASSET_TAGS = (); }; };
+		849836B91BB56FA400385AE8 /* 互动_回复送积分.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A21BB56FA400385AE8 /* 互动_回复送积分.png */; settings = {ASSET_TAGS = (); }; };
+		849836BA1BB56FA400385AE8 /* 互动_定位.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A31BB56FA400385AE8 /* 互动_定位.png */; settings = {ASSET_TAGS = (); }; };
+		849836BB1BB56FA400385AE8 /* 互动_导航 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A41BB56FA400385AE8 /* 互动_导航 选中.png */; settings = {ASSET_TAGS = (); }; };
+		849836BC1BB56FA400385AE8 /* 互动_导航栏 .png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A51BB56FA400385AE8 /* 互动_导航栏 .png */; settings = {ASSET_TAGS = (); }; };
+		849836BD1BB56FA400385AE8 /* 互动_添加 更多按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A61BB56FA400385AE8 /* 互动_添加 更多按钮.png */; settings = {ASSET_TAGS = (); }; };
+		849836BE1BB56FA400385AE8 /* 互动_添加按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A71BB56FA400385AE8 /* 互动_添加按钮.png */; settings = {ASSET_TAGS = (); }; };
+		849836BF1BB56FA400385AE8 /* 互动_点赞 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A81BB56FA400385AE8 /* 互动_点赞 副本.png */; settings = {ASSET_TAGS = (); }; };
+		849836C01BB56FA400385AE8 /* 互动_点赞.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836A91BB56FA400385AE8 /* 互动_点赞.png */; settings = {ASSET_TAGS = (); }; };
+		849836C11BB56FA400385AE8 /* 互动_精选分类 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836AA1BB56FA400385AE8 /* 互动_精选分类 选中.png */; settings = {ASSET_TAGS = (); }; };
+		849836C21BB56FA400385AE8 /* 互动_精选分类.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836AB1BB56FA400385AE8 /* 互动_精选分类.png */; settings = {ASSET_TAGS = (); }; };
+		849836C31BB56FA400385AE8 /* 互动_设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836AC1BB56FA400385AE8 /* 互动_设置.png */; settings = {ASSET_TAGS = (); }; };
+		849836C41BB56FA400385AE8 /* 互动_评论头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836AD1BB56FA400385AE8 /* 互动_评论头像.png */; settings = {ASSET_TAGS = (); }; };
+		849836C51BB56FA400385AE8 /* 互动_返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836AE1BB56FA400385AE8 /* 互动_返回按钮.png */; settings = {ASSET_TAGS = (); }; };
+		849836C61BB56FA400385AE8 /* 互动_通知.png in Resources */ = {isa = PBXBuildFile; fileRef = 849836AF1BB56FA400385AE8 /* 互动_通知.png */; settings = {ASSET_TAGS = (); }; };
+		84DB73371BABB845002AAE93 /* QCSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB73361BABB845002AAE93 /* QCSlideSwitchView.m */; settings = {ASSET_TAGS = (); }; };
+		84DB73381BABB845002AAE93 /* QCSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB73361BABB845002AAE93 /* QCSlideSwitchView.m */; settings = {ASSET_TAGS = (); }; };
+		84DB73391BABB845002AAE93 /* QCSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB73361BABB845002AAE93 /* QCSlideSwitchView.m */; settings = {ASSET_TAGS = (); }; };
+>>>>>>> 8e2b53a0ff95135ec441fe7e0e49676efcdaa4b5
 		DEFB0DD03AB0EF24D7025430 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F311ED8E5BBD14E7A5DE35 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -347,6 +384,10 @@
 				TargetAttributes = {
 					844F6EE81BAAAC5C0045999C = {
 						CreatedOnToolsVersion = 7.0;
+<<<<<<< HEAD
+=======
+						DevelopmentTeam = 95ZD4PU653;
+>>>>>>> 8e2b53a0ff95135ec441fe7e0e49676efcdaa4b5
 					};
 					844F6F011BAAAC5C0045999C = {
 						CreatedOnToolsVersion = 7.0;
@@ -624,11 +665,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = hudong/Info.plist;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kude.hudong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b0daf821-715a-458b-a18b-74a56026f958";
+=======
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oncould.hudong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+>>>>>>> 8e2b53a0ff95135ec441fe7e0e49676efcdaa4b5
 			};
 			name = Debug;
 		};
@@ -640,11 +688,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = hudong/Info.plist;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kude.hudong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b0daf821-715a-458b-a18b-74a56026f958";
+=======
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oncould.hudong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+>>>>>>> 8e2b53a0ff95135ec441fe7e0e49676efcdaa4b5
 			};
 			name = Release;
 		};
